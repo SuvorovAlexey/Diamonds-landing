@@ -27,11 +27,12 @@ elseLink.style.display = 'none'
 })
 
 
-//кнопка 'подобрать' и 'примерить'
+//кнопка 'подобрать' и 'примерить' и кнопка 'Отправить' в попапе
 let btnOrder = document.querySelector('.pusets__info--btn')
 let btnTryOn = document.querySelectorAll('.goods-item-order--btn')
 let popupBG = document.querySelector('.popup-bg-deactive')
 let popupWindow = document.querySelector('.popup-window')
+let buttonSend = document.querySelector('.popup-call__button')
 let body = document.querySelector('body')
 
 btnOrder.addEventListener('click', ()=> {
@@ -54,5 +55,15 @@ popupBG.addEventListener('click', (e)=> {
   }
   popupBG.classList.remove('popup-bg')
   body.style.overflowY = 'auto'
+  }
+)
+
+//кнопка 'Отправить' в попапе
+
+
+buttonSend.addEventListener('click', (ev)=> {
+    ev.preventDefault()
+    popupBG.classList.remove('popup-bg')
+    body.style.overflowY = 'auto'
   }
 )
