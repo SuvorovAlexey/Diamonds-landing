@@ -1,0 +1,426 @@
+@media (max-width: 1840px) {
+  .wrapper {
+  	width: 1215px;
+  }
+
+  /*header*/
+
+  #goods .wrapper {
+    padding-top: 100px;
+  }
+
+  .puset-img {
+    width: 692px;
+    height: 620px;
+  }
+
+  /*Пусеты*/
+  .pusets--title {
+    font-size: 200px;
+    padding-left: 0;
+    margin-bottom: -50px;
+  }
+
+  .pusets__info--name {
+    font-size: 115px;
+    margin-bottom: 15px;
+  }
+
+  .pusets__info--desc {
+    font-size: 22px;
+    width: 300px;
+  }
+
+  /*goods*/
+  .goods-item {
+    width: 230px;
+  }
+  .goods-item-title, .goods-item-order {
+    margin-top: 15px;
+  }
+  .goods-item-title{
+    font-size: 16px;
+  }
+  .goods-item-desc {
+    font-size: 14px;
+  }
+  .goods-item-order--price {
+    font-size: 18px;
+  }
+  .goods-item-order--btn {
+    width: 140px;
+  }
+
+  /*delivery*/
+  .delivery-item {
+    margin-right: 50px;
+  }
+
+  /*contacts*/
+
+  #contacts-container .wrapper {
+    margin-left: auto;
+  }
+  .questions {
+    padding-left: 50px;
+    padding-right: 20px;
+  }
+  label {
+    font-size: 10px;
+  }
+  .all-contacts--item {
+    font-size: 17px;
+  }
+
+}
+
+@media (max-width: 1608px) {
+  .wrapper {
+    width: 635px;
+  }
+
+   .menu-item a{
+    margin-left: 0;
+  }
+
+  /*header*/
+  .menu-container {
+    display: none;
+  }
+  .pusets--title {
+    padding-top: 130px;
+  }
+
+  .pusets__info {
+    padding: 155px 0 0 90px;
+    width: 678px;
+  }
+
+  .puset-img {
+    width: 520px;
+    height: 462px;
+    top: 50px;
+    right: 100px;
+  }
+
+  .contacts-container {
+    width: width: 635px;
+  }
+
+  .burger {
+    display: block;
+    background: #987A6E;
+    outline: none;
+  }
+
+  /*goods*/
+  .item5, .item6, .item7, .item8 {
+    display: none;
+  }
+
+  /*Delivery*/
+  .delivery-container {
+    flex-wrap: wrap;
+  }
+
+  .delivery-item {
+    width: 309px;
+    margin-bottom: 15px;
+    margin-right: auto;
+  }
+
+  /*contacts*/
+  #contacts-container .wrapper {
+    flex-direction: column;
+    width: 768px;
+  }
+
+  .contacts-main {
+    width: 768px;
+  }
+
+  .contacts {
+    width: 748px;
+    margin-left: 20px;
+  }
+
+  .questions {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .quesions--btn {
+    margin-left: 55px;
+  }
+
+  .contacts--bgtext {
+    font-size: 230px;
+  }
+  .map {
+    width: 100%;
+    margin-top: -60px
+  }
+
+  /*lastline*/
+  footer .wrapper {
+    font-size: 10px;
+  }
+  .copyright-text {
+    margin-left: 75px;
+  }
+}
+
+@media (max-width: 1135px) {
+  .puset-img {
+    top: 20px;
+    right: 10px;
+  }
+}
+
+
+@media (max-width: 1030px) {
+  .wrapper{
+    width: 280px;
+    margin: 0 auto;
+  }
+
+  /*puset*/
+
+    #pusets {
+      overflow: hidden;
+    }
+
+  .pusets--title {
+    font-size: 100px;
+    padding-top: 150px;
+  }
+
+  .pusets__info {
+    padding: 55px 0 0 28px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .pusets__info--name {
+    font-size: 74px;
+  }
+
+  .pusets__info--btn {
+    margin-bottom: 50px;
+  }
+
+  /*goods*/
+  .goods-item {
+    margin-right: 0;
+  }
+
+  #goods .wrapper{
+    padding-top: 50px;
+  }
+
+  h4 {
+    font-size: 26px;
+  }
+
+  .h4-desc {
+    font-size: 15px;
+    font-weight: normal;
+  }
+
+  .goods-area {
+    justify-content: center;
+  }
+
+  .goods-item-info {
+    padding: 5px 20px 20px 20px;
+  }
+  /*Delivery*/
+  #delivery {
+    padding: 70px 0;
+  }
+  .delivery-item {
+    margin-bottom: 40px;
+  }
+
+  .goods-item-title {
+    border-bottom: 3px solid #D79081;
+  }
+
+  .delivery-img {
+    margin: 0 auto;
+  }
+
+  /*contacts*/
+
+  #contacts-container .wrapper {
+    width: 100%;
+  }
+
+  .contacts {
+    margin-left: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 320px;
+  }
+
+  .contacts-main {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .all-contacts {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 220px;
+  }
+
+  .all-contacts--item {
+    margin-top: 15px;
+  }
+
+  .contacts--bgtext {
+    display: none;
+  }
+
+  .map {
+    margin-top: 220px;
+  }
+
+  .questions__input {
+    width: 300px;
+  }
+
+  /*footer*/
+  footer .wrapper {
+    padding: 10px 0;
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    justify-content: space-around;
+  }
+  .logo-container-footer {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .copyright-text {
+    margin: 10px 0 0 0;
+  }
+
+  .developer {
+    margin: 0 auto;
+  }
+
+  footer .wrapper p a {
+    float: none;
+  }
+  /*popup*/
+  .popup-window {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+
+@media (max-width: 822px) {
+  .puset-img {
+    display: block;
+    width: 391px;
+    height: 364px;
+    top: 30px;
+    right: 10px;
+  }
+
+  .pusets__info{
+    padding-top: 100px;
+  }
+
+}
+
+@media (max-width: 653px) {
+  .puset-img {
+    width: 251px;
+    height: 244px;
+    top: 30px;
+    right: 10px;
+  }
+  .pusets__info{
+    padding-top: 50px;
+  }
+  .contacts {
+    margin-left: 20%;
+  }
+}
+
+@media (max-width: 653px) {
+  .pusets__info {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pusets__info--desc {
+    width: 260px;
+    margin-left: 20px;
+  }
+  .all-contacts {
+    max-width: 90%;
+  }
+
+  /*popup*/
+  .popup-window {
+    padding: 10px;
+    width: 300px;
+    height: 320px;
+  }
+}
+
+@media (max-width: 515px) {
+  .contacts {
+    margin-left: 10%;
+  }
+}
+
+@media (max-width: 362px) {
+  .contacts {
+    margin-left: 0%;
+  }
+}
+
+
+
+@media (max-width: 321px) {
+  .puset-img {
+    right: auto;
+    width: 100%;
+    top: 0;
+  }
+  .pusets__info {
+    padding: 0;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .quesions--btn {
+    margin-left: 55px;
+  }
+  .all-contacts {
+    width: 300px;
+  }
+
+  /*popup*/
+  .popup-window {
+    padding: 5px;
+    width: 300px;
+    height: 320px;
+  }
+  .popup-window__input {
+    height: 20px;
+    width: 290px;
+  }
+}
